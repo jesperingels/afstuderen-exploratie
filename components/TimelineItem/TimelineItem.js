@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import './TimelineItem.css'
 
 const TimelineItem = props => (
     <section>
@@ -8,9 +9,10 @@ const TimelineItem = props => (
             <img src={props.imgSrc}/>
         </div>
         <div className='item-text'>
+            <div className='hider'></div>
             <p>{props.itemText}</p>
             <Link href={props.linkHref}>
-                <a>{props.linkText}</a>
+                <a className="section-button">{props.linkText}</a>
             </Link>
             
         </div>

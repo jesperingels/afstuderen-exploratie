@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding: 0 15px;
+    background-color: white;
+    border-bottom: solid;
+}
+
+header nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a {
+    color: #2E2C2F;
+    margin-right: 40px;
+    transition: 0.2s;
+}
+
+header a:hover {
+    border-bottom: solid;
+}

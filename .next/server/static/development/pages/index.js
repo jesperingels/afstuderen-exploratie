@@ -190,13 +190,24 @@ const Main = () => __jsx("main", {
   __self: undefined
 }, __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
   itemTitle: "Start bij Handpicked Labs",
-  itemText: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.",
+  itemText: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, ",
   linkHref: "test",
   linkText: "Bekijk meer",
   imgSrc: "/img/2-hololens-slashdot.png",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
+  },
+  __self: undefined
+}), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  itemTitle: "Start bij Handpicked Labs",
+  itemText: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,",
+  linkHref: "test",
+  linkText: "Bekijk meer",
+  imgSrc: "/img/2-hololens-slashdot.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
   },
   __self: undefined
 }));
@@ -230,7 +241,7 @@ const Navigation = () => __jsx("nav", {
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/assignment",
+  href: "/opdracht",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
@@ -242,8 +253,8 @@ const Navigation = () => __jsx("nav", {
     lineNumber: 6
   },
   __self: undefined
-}, "Assignment")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/solution",
+}, "Opdracht")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/probleemstelling",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
@@ -255,9 +266,33 @@ const Navigation = () => __jsx("nav", {
     lineNumber: 9
   },
   __self: undefined
-}, "Solution")));
+}, "Probleemstelling")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/oplossing",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Oplossing")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
+
+/***/ }),
+
+/***/ "./components/TimelineItem/TimelineItem.css":
+/*!**************************************************!*\
+  !*** ./components/TimelineItem/TimelineItem.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -274,61 +309,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _TimelineItem_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TimelineItem.css */ "./components/TimelineItem/TimelineItem.css");
+/* harmony import */ var _TimelineItem_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_TimelineItem_css__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/components/TimelineItem/TimelineItem.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 const TimelineItem = props => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 5
   },
   __self: undefined
 }, __jsx("div", {
   className: "item-title",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 7
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
   },
   __self: undefined
 }, props.itemTitle), __jsx("img", {
   src: props.imgSrc,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
 })), __jsx("div", {
   className: "item-text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 11
   },
   __self: undefined
-}, __jsx("p", {
+}, __jsx("div", {
+  className: "hider",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 12
+  },
+  __self: undefined
+}), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
   },
   __self: undefined
 }, props.itemText), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: props.linkHref,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx("a", {
+  className: "section-button",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 15
   },
   __self: undefined
 }, props.linkText))));
