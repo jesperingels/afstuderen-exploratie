@@ -23,6 +23,43 @@ header a:hover {
     border-bottom: solid;
 }
 
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 0 15px;
+}
+
+.content-container a {
+    text-decoration: underline;
+}
+
+.content-container * {
+    grid-column: 2/3;
+}
+
+.content-container h1, .content-container h2 {
+    text-align: center;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-wrapper img {
+    margin: 25px 0;
+    object-fit: contain;
+}
+
+@media screen and (max-width:768px) {
+    .content-container * {
+        grid-column: 1/4;
+    }
+}
+
+
+
+
 section {
     display: flex;
     overflow: hidden;
@@ -67,6 +104,16 @@ section:hover .hider {
     width: 100%;
     filter: blur(5px);
     transition: 0.5s;
+}
+
+.item-title:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #2e2b2f;
+    position: absolute;
+    opacity: 0.3;
 }
 
 .item-text {
@@ -121,7 +168,6 @@ section:hover .hider {
     }
 }
 
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -136,6 +182,30 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+/* Reusable classes */
+
+.width-30pr {
+    width:30%;
+}
+
+.width-50pr {
+    width:50%;
+}
+
+.width-80pr {
+    width:80%;
+}
+
+.width-100pr {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 
