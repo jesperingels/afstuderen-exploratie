@@ -8673,7 +8673,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 0:
 /*!************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************************************/
@@ -8696,5 +8696,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

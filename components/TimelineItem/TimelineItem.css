@@ -104,4 +104,8 @@ section:hover .hider {
     .item-text {
         padding-bottom: 50px;
     }
+
+    .hider {
+        display: none;
+    }
 }
