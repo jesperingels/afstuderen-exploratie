@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header'
 import Content from '../components/Content/Content'
+import Footer from '../components/Footer/Footer'
 import '../public/css/global.css'
 
 const OnderzoekHololens = () => (
@@ -25,7 +26,7 @@ const OnderzoekHololens = () => (
         <p>In Unity heb ik verschillende test apps geopend van Microsoft om te kijken wat er mogelijk is. In deze video kun je zien dat je objecten eigenlijk kunt vastpakken en tegelijkertijd kunt roteren, vergroten, en verplaatsen. </p>
         
         <div className='img-wrapper'>
-        <iframe width="743" height="418" src="https://www.youtube.com/embed/ZFZTMbU7vY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="743" height="418" src="https://www.youtube.com/embed/ZFZTMbU7vY8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <p>De bril ziet de wereld door middel van de ‘spatial mesh’, dit is een soort net wat de HoloLens over de wereld heen legt.  </p>
 
@@ -50,6 +51,7 @@ const OnderzoekHololens = () => (
 
 
       </Content>
+      <Footer/>
     </div> 
   );
   

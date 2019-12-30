@@ -2,7 +2,7 @@ import Link from 'next/link';
 import './TimelineItem.css'
 
 const TimelineItem = props => (
-    <section>
+    <section className="timeline-section">
 
         <div className='item-title'>
             <h2>{props.itemTitle}</h2>

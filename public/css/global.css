@@ -39,3 +39,10 @@ p {
     height: 100%;
     width: 100%;
 }
+
+.section-button {
+    color: #EBEBEB;
+    padding: 8px 15px;
+    background-color: #6369D1;
+    border-radius: 50px;
+}

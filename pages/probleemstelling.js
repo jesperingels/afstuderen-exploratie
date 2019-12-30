@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header'
 import Content from '../components/Content/Content'
+import Footer from '../components/Footer/Footer'
 import '../public/css/global.css'
 
 const Opdracht = () => (
@@ -16,6 +17,7 @@ De mensen die veel kennis hebben over de machines in de fabrieken van Perfetti V
         </div>
         <p>Stel er is een storing met een machine in de fabriek van Perfetti Van Melle in China. Het eerste wat er gebeurt is dat ze daar lokaal het probleem gaan proberen op te lossen. Het kan gebeuren dat het een heel specifiek probleem is waar alleen een expert kennis van heeft. De experts van de machines van Perfetti Van Melle bevinden zich meestal in Nederland en dus bellen ze van China naar Nederland om hulp. Vaak komen ze dan tot de conclusie dat de expert van Nederland naar China moet worden overgevlogen om de machine te repareren. Dit alles brengt natuurlijk hoge kosten met zich mee, hoe kunnen deze kosten bespaard worden?  </p>
       </Content>
+      <Footer/>
     </div> 
   );
   

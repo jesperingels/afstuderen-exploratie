@@ -16,6 +16,13 @@
     text-align: center;
 }
 
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .img-wrapper {
     display: flex;
     justify-content: space-around;

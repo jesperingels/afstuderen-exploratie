@@ -1,14 +1,14 @@
-section {
+.timeline-section {
     display: flex;
     overflow: hidden;
     border-bottom: solid black 1px;
 }
 
-section:hover .item-title img, section:hover .item-text {
+.timeline-section:hover .item-title img, .timeline-section:hover .item-text {
     filter: blur(0);
 }
 
-section:hover .hider {
+.timeline-section:hover .hider {
     transform: scale(0, 1);
 }
 
@@ -97,7 +97,7 @@ section:hover .hider {
 }
 
 @media screen and (max-width:976px) {
-    section {
+    .timeline-section {
         flex-direction: column;
     }
 

@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header'
 import Content from '../components/Content/Content'
+import Footer from '../components/Footer/Footer'
 import '../public/css/global.css'
 
 const Opdracht = () => (
@@ -16,6 +17,7 @@ const Opdracht = () => (
         <h2>Aanleiding</h2>
         <p>Met de komst van de HoloLens 2 (de nieuwste augmented reality (AR) headset van Microsoft) richt Microsoft zich op de werknemers van verschillende sectoren zoals bijvoorbeeld: de zorg, fabrieken, bouwvakkers, architecten enz. Eigenlijk de beroepen waarbij je niet elke werkdag van 09:00 tot 17:00 achter een computer zit. Vanwege de aard van deze beroepen maken ze vaak nog weinig gebruik van een computer tijdens hun werk. Hier moet de HoloLens op inspelen door deze mensen de voordelen van een computer te bieden, zonder de nadelen waardoor zij tot nu toe weinig tot geen computer gebruikten tijdens hun werk. </p>
       </Content>
+      <Footer/>
     </div> 
   );
   

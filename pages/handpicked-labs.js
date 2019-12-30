@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header'
 import Content from '../components/Content/Content'
+import Footer from '../components/Footer/Footer'
 import '../public/css/global.css'
 
 const HandpickedLabs = () => (
@@ -15,6 +16,7 @@ const HandpickedLabs = () => (
      
         
         </Content>
+        <Footer/>
     </div> 
   );
   
