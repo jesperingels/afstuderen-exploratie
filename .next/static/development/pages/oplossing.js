@@ -8669,7 +8669,7 @@ var HandpickedLabs = function HandpickedLabs() {
       lineNumber: 18
     },
     __self: this
-  }, __jsx("h3", {
+  }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -8710,7 +8710,7 @@ var HandpickedLabs = function HandpickedLabs() {
       lineNumber: 28
     },
     __self: this
-  }, __jsx("h3", {
+  }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -8751,7 +8751,7 @@ var HandpickedLabs = function HandpickedLabs() {
       lineNumber: 38
     },
     __self: this
-  }, __jsx("h3", {
+  }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
@@ -8787,22 +8787,103 @@ var HandpickedLabs = function HandpickedLabs() {
       lineNumber: 44
     },
     __self: this
-  }), __jsx("li", {
+  }, "Marieke Simone \u2013 Manufacturing Director Benelux Perfetti Van Melle"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
-  }), __jsx("li", {
+  }, "Tim Crucq \u2013 Manager Packaging Perfetti Van Melle"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
-  })))), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Kees Vuyk Noorland \u2013 Technical Manager Perfetti Van Melle"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Johan Deijkers \u2013 Manager Industrial Automation Perfetti Van Melle"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Bram Beijer \u2013 Group Infrastructure & Cloud Architect IT Perfetti Van Melle"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Guus Huijbers \u2013 Shiftmanager Perfetti Van Melle"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Sjoerd van Oosten \u2013 Partner/Creative Director Handpicked Agencies"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Samet Yilmaz \u2013 Technical Director of Innovations Handpicked Agencies")), __jsx("div", {
+    className: "img-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "width-100pr",
+    src: "/img/presentatiePVM.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
+    },
+    __self: this
+  })), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening kunnen houden. Na de presentatie heb ik met de opdrachtgever (Ko van Belois) afgesproken om een live demo te gaan houden voor \u2018the board of directors\u2019 van Perfetti Van Melle.  ")), __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Live Demo"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Ko wilde het project pitchen bij \u2018the board of directors\u2019 van het bedrijf om zo te kijken of het project verder uitgerold kan worden binnen het bedrijf. Voor deze demo bevond Ko zich in Amsterdam bij een meeting en zou hij een videoverbinding starten via Microsoft Teams op zijn laptop naar de HoloLens in Breda. Ik stond gereed met de HoloLens bij een machine in de fabriek, hij gaf me enkele taken om de machine te besturen en voegde een document met uitleg in. Dit verliep allemaal heel soepel, achteraf vroeg ik hoe hij het vond gaan. Hij vond het een hele goede demo en heeft toestemming gekregen om het project uit te breiden naar Nigeria en Bangladesh!"), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "Conclusie"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "Dit project ben ik begonnen met een onderzoek naar de implementatie van een nieuwe technologie (Augmented Reality) binnen het multinational bedrijf Perfetti Van Melle. Dit was een grote uitdaging aangezien ik het project in m\u2019n eentje uitvoerde. Wel heb ik veel ondersteuning en sturing gekregen van uit Perfetti Van Melle en Handpicked Labs. "), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Uiteindelijk is het resultaat dat ik aan Perfetti Van Melle heb bewezen wat er allemaal mogelijk is met de HoloLens en dat het ook daadwerkelijk bij hun op de werkvloer direct inzetbaar is. In het begin van dit project werd er nog weinig gebruik gemaakt van de HoloLens binnen het bedrijf en nu zelfs de directie van het bedrijf is overtuigd wordt het project verder uitgebreid over de fabrieken van Perfetti Van Melle wereldwijd. Ook lever ik documentatie op aan het bedrijf zodat ze nog steeds met de HoloLens overweg kunnen als ik weg ben.  ")), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
     },
     __self: this
   }));
@@ -8812,7 +8893,7 @@ var HandpickedLabs = function HandpickedLabs() {
 
 /***/ }),
 
-/***/ 10:
+/***/ 7:
 /*!*************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Foplossing&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Foplossing.js ***!
   \*************************************************************************************************************************************************************************************/
@@ -8835,5 +8916,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=oplossing.js.map
