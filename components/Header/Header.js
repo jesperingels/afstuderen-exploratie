@@ -4,12 +4,19 @@ import './Header.css'
 
 const Header = () => (
     <header>
-        <div className='Logo'>
+        <input type="checkbox" id="checkbox"></input>
+        <div className="menu-logo"></div>
+        <div className="mobile-menu"></div>
+        <div className='logo'>
             <Link href='/'>
                 <a>Home</a>
             </Link>
         </div>
-        <Navigation/>
+        <Navigation>
+        <Link href='/'>
+                <a id="mobile-home">Home</a>
+            </Link>
+        </Navigation>
     </header>
   );
   

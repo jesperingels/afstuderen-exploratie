@@ -2,7 +2,7 @@
 
 ## MoSCow
 ### Must have
-- [ ] Responsive menu
+- [x] Responsive menu
 - [x] Responsive Timeline
 
 

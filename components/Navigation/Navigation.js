@@ -1,7 +1,8 @@
 import Link from 'next/link';
 
-const Navigation = () => (
-    <nav>
+const Navigation = (props) => (
+    <nav className="navigation">
+        {props.children}
         <Link href="/opdracht">
             <a>Opdracht</a>
         </Link>

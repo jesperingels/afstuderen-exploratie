@@ -26,6 +26,14 @@ const Main = () => (
         imgSrc='/img/ARBrillen.jpg'
       />
 
+      <TimelineItem
+        itemTitle='Start bij Perfetti Van Melle '
+        itemText='Bij Perfetti Van Melle heb ik een werkplek aangeboden gekregen op het planbureau en kon ik aan de slag gaan met mijn onderzoek binnen het bedrijf naar de implementatie van de HoloLens. '
+        linkHref='start-perfetti-van-melle'
+        linkText='Bekijk meer'
+        imgSrc='/img/pvm-logo.jpg'
+      />
+
     </main>
   );
   
