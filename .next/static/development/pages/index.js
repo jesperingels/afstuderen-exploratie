@@ -1,37 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/start-perfetti-van-melle.js"],{
-
-/***/ "./components/Content/Content.js":
-/*!***************************************!*\
-  !*** ./components/Content/Content.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Content_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Content.css */ "./components/Content/Content.css");
-/* harmony import */ var _Content_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Content_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/components/Content/Content.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Content = function Content(props) {
-  return __jsx("main", {
-    className: "content-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, props.children);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Content);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/Footer/Footer.js":
 /*!*************************************!*\
@@ -212,6 +179,81 @@ var Header = function Header() {
 
 /***/ }),
 
+/***/ "./components/Main/Main.js":
+/*!*********************************!*\
+  !*** ./components/Main/Main.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../TimelineItem/TimelineItem */ "./components/TimelineItem/TimelineItem.js");
+var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/components/Main/Main.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Main = function Main() {
+  return __jsx("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    itemTitle: "Start bij Handpicked Labs",
+    itemText: "Mijn afstudeerproject ben ik begonnen bij Handpicked Labs, onderdeel van Handpicked Agencies in Breda. Voor dit project ben ik onderzoek gaan doen naar de Microsoft HoloLens als voorbereiding op het onderzoek wat ik zal doen in de fabriek bij Perfetti Van Melle. ",
+    linkHref: "handpicked-labs",
+    linkText: "Bekijk meer",
+    imgSrc: "/img/HPBreda.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    itemTitle: "Onderzoek HoloLens ",
+    itemText: "Perfetti van Melle heeft zelf de HoloLens (1st gen) al in bezit, ik ben gaan onderzoeken wat deze bril kan. ",
+    linkHref: "onderzoek-hololens",
+    linkText: "Bekijk meer",
+    imgSrc: "/img/2-hololens-slashdot.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    itemTitle: "Onderzoek Augmented Reality brillen ",
+    itemText: "De HoloLens is niet de enige Augmented Reality bril op de markt. Waarom is de HoloLens de beste keuze voor Perfetti Van Melle?",
+    linkHref: "ar-brillen",
+    linkText: "Bekijk meer",
+    imgSrc: "/img/ARBrillen.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    itemTitle: "Start bij Perfetti Van Melle ",
+    itemText: "Bij Perfetti Van Melle heb ik een werkplek aangeboden gekregen op het planbureau en kon ik aan de slag gaan met mijn onderzoek binnen het bedrijf naar de implementatie van de HoloLens. ",
+    linkHref: "start-perfetti-van-melle",
+    linkText: "Bekijk meer",
+    imgSrc: "/img/pvm-logo.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Main);
+
+/***/ }),
+
 /***/ "./components/Navigation/Navigation.js":
 /*!*********************************************!*\
   !*** ./components/Navigation/Navigation.js ***!
@@ -281,6 +323,96 @@ var Navigation = function Navigation(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
+
+/***/ }),
+
+/***/ "./components/TimelineItem/TimelineItem.js":
+/*!*************************************************!*\
+  !*** ./components/TimelineItem/TimelineItem.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _TimelineItem_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TimelineItem.css */ "./components/TimelineItem/TimelineItem.css");
+/* harmony import */ var _TimelineItem_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_TimelineItem_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/components/TimelineItem/TimelineItem.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var TimelineItem = function TimelineItem(props) {
+  return __jsx("section", {
+    className: "timeline-section",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "item-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.itemTitle), __jsx("img", {
+    src: props.imgSrc,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "item-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "hider",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, props.itemText), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: props.linkHref,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, props.linkText))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (TimelineItem);
 
 /***/ }),
 
@@ -4885,21 +5017,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstart-perfetti-van-melle&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Fstart-perfetti-van-melle.js!./":
-/*!***************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstart-perfetti-van-melle&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Fstart-perfetti-van-melle.js ***!
-  \***************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js!./":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/start-perfetti-van-melle", function() {
-      var mod = __webpack_require__(/*! ./pages/start-perfetti-van-melle.js */ "./pages/start-perfetti-van-melle.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/start-perfetti-van-melle.js */ "./pages/start-perfetti-van-melle.js", function() {
-          if(!next.router.components["/start-perfetti-van-melle"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/start-perfetti-van-melle.js */ "./pages/start-perfetti-van-melle.js")
-          next.router.update("/start-perfetti-van-melle", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -8622,10 +8754,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/start-perfetti-van-melle.js":
-/*!*******************************************!*\
-  !*** ./pages/start-perfetti-van-melle.js ***!
-  \*******************************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8634,11 +8766,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header/Header */ "./components/Header/Header.js");
-/* harmony import */ var _components_Content_Content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Content/Content */ "./components/Content/Content.js");
+/* harmony import */ var _components_Main_Main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Main/Main */ "./components/Main/Main.js");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
 /* harmony import */ var _public_css_global_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../public/css/global.css */ "./public/css/global.css");
 /* harmony import */ var _public_css_global_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_css_global_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/pages/start-perfetti-van-melle.js";
+var _jsxFileName = "/Users/jesperingels/Documents/vs-code/repositories/afstuderen-exploratie/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -8646,7 +8778,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var HandpickedLabs = function HandpickedLabs() {
+var Index = function Index() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
@@ -8659,54 +8791,33 @@ var HandpickedLabs = function HandpickedLabs() {
       lineNumber: 8
     },
     __self: this
-  }), __jsx(_components_Content_Content__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(_components_Main_Main__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, __jsx("h1", {
+  }), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Start bij Perfetti Van Melle"), __jsx("div", {
-    className: "img-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "width-100pr",
-    src: "/img/start-pvm.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }))), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (HandpickedLabs);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 10:
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fstart-perfetti-van-melle&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Fstart-perfetti-van-melle.js ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ 0:
+/*!************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstart-perfetti-van-melle&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Fstart-perfetti-van-melle.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstart-perfetti-van-melle&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Fstart-perfetti-van-melle.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjesperingels%2FDocuments%2Fvs-code%2Frepositories%2Fafstuderen-exploratie%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -8722,5 +8833,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=start-perfetti-van-melle.js.map
+},[[0,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=index.js.map
