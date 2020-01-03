@@ -3,6 +3,10 @@
 ## Introduction
 I build this website to show the research I did for my graduation project (education: Communication & Multimedia Design). It's build with [Next.js](https://nextjs.org/).
 
+[Demo](https://afstuderen-exploratie.jesperingels.now.sh/)
+
+
+
 ## Install
 Download or clone this repo. <br/>
 Then install packages
