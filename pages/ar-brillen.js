@@ -47,7 +47,25 @@ const HandpickedLabs = () => (
             <img className='width-80pr' src='/img/googleGlass.jpg' />
         </div>
 
+        <h3>Meta 2</h3>
+        <p>Deze bril is potentieel beter dan de HoloLens, dit komt dan vooral omdat de Meta 2 een groot FOV (field of view) heeft. Bij de HoloLens zie je de Hologrammen alleen direct voor je en niet in je ooghoeken. Bij de Meta 2 zie je ze wel in je ooghoeken maar om zo’n groot FOV te kunnen renderen moet je de bril aan een krachtige computer koppelen met een goede grafische kaart. </p>
+        <div className='img-wrapper'>
+            <img className='width-33pr' src='/img/meta2.jpg' />
+            <img className='width-33pr' src='/img/meta2.1.jpg' />
+        </div>
 
+        <h3>ThirdEye Gen-x1/2 </h3>
+        <p>Deze bril valt ook in de categorie van de HoloLens, alleen is deze bril veel minder krachtig met een lagere resolutie en een kleiner FOV. Terwijl de HoloLens al een vrij klein FOV heeft.  </p>
+        <div className='img-wrapper'>
+            <img className='width-33pr' src='/img/thirdeye1.jpg' />
+            <img className='width-33pr' src='/img/thirdeye2.jpg' />
+        </div>
+
+        <h3>HoloLens</h3>
+        <p>De HoloLens heeft een krachtige computer in de bril gebouwd, heeft een kleinere FOV dan de Meta 2. Het grote voordeel van de HoloLens ten opzichte van de Meta 2 is dat de HoloLens niet aangesloten hoeft te worden aan een computer. Perfetti Van Melle maakt in het gehele bedrijf gebruik van de services van Microsoft zoals: Microsoft Teams, Outlook, OneDrive, SharePoint etc. Apps voor de HoloLens communiceren heel makkelijk met de andere apps van Microsoft, zo kun je bijvoorbeeld bestanden delen uit OneDrive en communiceren via Teams. Het feit dat de hardware van de HoloLens de beste in de markt is en het feit dat de bril samenhangt in de services van Microsoft zorgt ervoor dat de HoloLens de beste keuze is voor Perfetti Van Melle.  </p>
+        <div className='img-wrapper'>
+            <img className='width-80pr' src='/img/HoloLens.png' />
+        </div>
 
         </Content>
         <Footer/>

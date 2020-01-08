@@ -12,6 +12,9 @@ const Bijlage = () => (
         <Link href="/bijlagen/meelopen-operator">
             <a>Meelopen met operator</a>
         </Link>
+        <Link href="/bijlagen/teamoverleg-hololens">
+            <a>Teamoverleg HoloLens</a>
+        </Link>
 
       </Content>
       <Footer/>

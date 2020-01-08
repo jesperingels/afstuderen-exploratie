@@ -357,6 +357,17 @@ const Main = () => __jsx("main", {
     lineNumber: 29
   },
   __self: undefined
+}), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  itemTitle: "Gebruikerstest - Remote Assist ",
+  itemText: "Uit mijn onderzoek is gebleken dat de applicatie \u2018Remote Assist\u2019 wellicht een goede oplossing kan zijn voor de vraagstelling. Om hier achter te komen heb ik een gebruikerstest gedaan in de fabriek",
+  linkHref: "usertest-remote-assist",
+  linkText: "Bekijk meer",
+  imgSrc: "/img/ra-test1.jpg",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
 }));
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);

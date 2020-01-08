@@ -105,51 +105,6 @@ header a:hover {
 
 }
 
-.content-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    padding: 0 15px;
-    margin: 50px 0;
-}
-
-.content-container a {
-    text-decoration: underline;
-}
-
-.content-container * {
-    grid-column: 2/3;
-}
-
-.content-container h1, .content-container h2 {
-    text-align: center;
-}
-
-.content-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.img-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
-
-.img-wrapper img {
-    margin: 25px 0;
-    object-fit: contain;
-}
-
-@media screen and (max-width:768px) {
-    .content-container * {
-        grid-column: 1/4;
-    }
-}
-
-
-
-
 .timeline-section {
     display: flex;
     overflow: hidden;
@@ -310,6 +265,10 @@ p {
 
 .width-30pr {
     width:30%;
+}
+
+.width-33pr {
+    width:33%;
 }
 
 .width-50pr {

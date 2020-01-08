@@ -34,6 +34,14 @@ const Main = () => (
         imgSrc='/img/pvm-logo.jpg'
       />
 
+      <TimelineItem
+        itemTitle='Gebruikerstest - Remote Assist '
+        itemText='Uit mijn onderzoek is gebleken dat de applicatie ‘Remote Assist’ wellicht een goede oplossing kan zijn voor de vraagstelling. Om hier achter te komen heb ik een gebruikerstest gedaan in de fabriek'
+        linkHref='usertest-remote-assist'
+        linkText='Bekijk meer'
+        imgSrc='/img/ra-test1.jpg'
+      />
+
     </main>
   );
   
