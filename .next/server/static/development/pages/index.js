@@ -151,7 +151,7 @@ const Footer = () => __jsx("footer", {
   },
   __self: undefined
 }, "Bijlages")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "reflectie",
+  href: "/reflectie",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
@@ -358,7 +358,7 @@ const Main = () => __jsx("main", {
   },
   __self: undefined
 }), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-  itemTitle: "Gebruikerstest - Remote Assist ",
+  itemTitle: "Usertest - Remote Assist ",
   itemText: "Uit mijn onderzoek is gebleken dat de applicatie \u2018Remote Assist\u2019 wellicht een goede oplossing kan zijn voor de vraagstelling. Om hier achter te komen heb ik een gebruikerstest gedaan in de fabriek",
   linkHref: "usertest-remote-assist",
   linkText: "Bekijk meer",
@@ -366,6 +366,28 @@ const Main = () => __jsx("main", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37
+  },
+  __self: undefined
+}), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  itemTitle: "Usertest - Dynamics 365 Guides ",
+  itemText: "Gedurende mijn tijd in de fabriek ben ik erachter gekomen dat er een behoefte was voor nog een andere app in de fabriek \u2018Dynamics 365 Guides\u2019. ",
+  linkHref: "usertest-guides",
+  linkText: "Bekijk meer",
+  imgSrc: "/img/guides-picture.png",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}), __jsx(_TimelineItem_TimelineItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  itemTitle: "Presentatie - Perfetti Van Melle",
+  itemText: "Om het project voor Perfetti Van Melle af te ronden heb ik een presentatie gegeven en ook gepitcht hoe ik denk dat de HoloLens een rol kan spelen binnen de organisatie.",
+  linkHref: "presentatie-pvm",
+  linkText: "Bekijk meer",
+  imgSrc: "/img/presentatiePVM.jpg",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
   },
   __self: undefined
 }));

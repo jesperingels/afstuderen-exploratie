@@ -14,13 +14,13 @@ const HandpickedLabs = () => (
             <a>Meelopen met operator</a>
         </Link>
         <p>Ik heb gebruikers testen gedaan met de HoloLens app ‘Remote Assist’ en ‘Dynamics 365 Guides’. Beide apps hebben plus- en minpunten, maar toch kunnen ze nu al heel veel meerwaarde bieden voor Perfeti Van Melle.  </p>
-        
+    
         <section className="content-section">
             <h2>Remote Assist</h2>
             <div className='img-wrapper'>
                 <img className="width-50pr" src="/img/remoteAssist.jpg"/>
             </div>
-            <Link href="/">
+            <Link href="/usertest-remote-assist">
                 <a>Ga naar user-test</a>
             </Link>
         </section>

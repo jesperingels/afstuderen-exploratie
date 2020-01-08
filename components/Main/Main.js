@@ -35,11 +35,27 @@ const Main = () => (
       />
 
       <TimelineItem
-        itemTitle='Gebruikerstest - Remote Assist '
+        itemTitle='Usertest - Remote Assist '
         itemText='Uit mijn onderzoek is gebleken dat de applicatie ‘Remote Assist’ wellicht een goede oplossing kan zijn voor de vraagstelling. Om hier achter te komen heb ik een gebruikerstest gedaan in de fabriek'
         linkHref='usertest-remote-assist'
         linkText='Bekijk meer'
         imgSrc='/img/ra-test1.jpg'
+      />
+
+      <TimelineItem
+        itemTitle='Usertest - Dynamics 365 Guides '
+        itemText='Gedurende mijn tijd in de fabriek ben ik erachter gekomen dat er een behoefte was voor nog een andere app in de fabriek ‘Dynamics 365 Guides’. '
+        linkHref='usertest-guides'
+        linkText='Bekijk meer'
+        imgSrc='/img/guides-picture.png'
+      />
+
+      <TimelineItem
+        itemTitle='Presentatie - Perfetti Van Melle'
+        itemText='Om het project voor Perfetti Van Melle af te ronden heb ik een presentatie gegeven en ook gepitcht hoe ik denk dat de HoloLens een rol kan spelen binnen de organisatie.'
+        linkHref='presentatie-pvm'
+        linkText='Bekijk meer'
+        imgSrc='/img/presentatiePVM.jpg'
       />
 
     </main>

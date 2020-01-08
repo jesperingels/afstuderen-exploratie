@@ -7,9 +7,10 @@ const Meelopen  = () => (
     <div>
       <Header/>
       <Content>
-          <h1>Volledige video Remote Assist usertest</h1>
+          <h1>Volledige video's Remote Assist usertest</h1>
 
-          <iframe src="https://onedrive.live.com/embed?cid=87C3F7FA1C39B21A&resid=87C3F7FA1C39B21A%2133330&authkey=ALeClWffb-F8IvY" width="320" height="180" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+        <a href="https://1drv.ms/v/s!AhqyORz698OHgoQy4-awJc_bWv2lgQ">Remote Assist volledige video test 1</a>
+        <a href="https://1drv.ms/v/s!AhqyORz698OHgoQ4dKJ8-OFLpvcPBQ">Remote Assist volledige video test 2</a>
 
       </Content>
       <Footer/>

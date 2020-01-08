@@ -1,6 +1,7 @@
 import Header from '../components/Header/Header'
 import Content from '../components/Content/Content'
 import Footer from '../components/Footer/Footer'
+import Link from 'next/link';
 import '../public/css/global.css'
 
 const HandpickedLabs = () => (
@@ -83,9 +84,35 @@ const HandpickedLabs = () => (
             <li>Gaby geeft aan dat ze het fijn zou vinden om zelf ook pijlen weg te kunnen halen. Persoonlijk denk ik dat het goed is dat die ene niet de pijlen van de ander kan weghalen, om verwarring te voorkomen. </li>
         </ol>
 
+        <iframe width="743" height="418" src="https://www.youtube.com/embed/y3hod6Z-Cfc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
+        <Link href="/bijlagen/remote-assist-usertest">
+            <a>Volledige usertest</a>
+        </Link>
 
+        <h2>Conclusie</h2>
+        <p><strong style={{color: 'green'}}>Goed</strong><br/>
+        <i>Geluid:</i> Het geluid was eerst een probleem, omdat er veel lawaai van machines op de werkvloer was. De operator en monteur konden elkaar niet verstaan en de operator kon niks horen uit de standaard luidsprekers die op de HoloLens zitten.  
 
+        De test hierop heb ik een game-headset van thuis meegenomen, de headset is wel een beetje groot en onhandig maar de monteur en operator konden elkaar heel goed verstaan. In het vervolg kan de ICT-afdeling van Perfetti Van Melle een headset regelen die wat meer lichtgewicht is zodat het voor de operator wat comfortabeler is.  
+        </p>
+
+        <p><i>Internet:</i> De internetverbinding is niet overal in de fabriek aanwezig, hiervoor moest er een extra router worden opgehangen bij de machine waar ik mijn tests uitvoerde. De Remote Assist applicatie past automatisch de kwaliteit van de video en audio aan naar een lagere kwaliteit als het internet verslechterd hierdoor blijft de verbinding zelf wel stabiel.  </p>
+
+        <p><i>Communicatie:</i> De communicatie verliep in het begin wat stroef maar nadat de operator en monteur de manier van communiceren gewend waren verliep het vrij soepel.  
+
+        </p>
+
+        <p><strong style={{color: 'orange'}}>Kan beter</strong><br/>
+        <i>Pijlen:</i> Het plaatsen van de hologram pijlen in de wereld van de HoloLens lukt niet altijd. Dit komt door de technologische capaciteiten en limieten van de HoloLens. De HoloLens ziet de wereld door een soort net over objecten heen te leggen dit net heet: ‘Spatial Mesh’. Hieronder een video die het wat beter uitlegt. 
+        </p>
+
+        <iframe width="743" height="418" src="https://www.youtube.com/embed/ZFZTMbU7vY8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+        <p><strong style={{color: 'red'}}>Slecht</strong><br/>
+        <i>Comfort:</i> Het comfort van de HoloLens is erg slecht, nadat de operator de bril een uur lang ophad gaf hij aan dat het pijn begon te doen en moesten we even stoppen. Dit slechte comfort komt onder andere omdat het frame van de bril van metaal is gemaakt en de batterij en alle rekenkracht voor in de bril zit. In de HoloLens 2 die ondertussen ook is uitgebracht hebben ze aanpassingen gemaakt om het comfort te verbeteren. De HoloLens 2 is gemaakt van ‘Carbon Fiber’ en de batterij bevindt zich achter op het hoofd zodat het gewicht beter verdeeld is.  
+        </p>
+        <p><i>Camera snelheid:</i> Onbewust bewegen mensen veel met hun hoofd als ze ergens mee bezig zijn, zoals een reparatie van een machine. Wanneer je de HoloLens op je hoofd hebt en er probeert iemand mee te kijken is dit niet zo handig. Bij het testen gaf de monteur die mee kijken op zijn laptop dus aan dat hij er bijna misselijk van werd, omdat het beeld zoveel en zo snel beweegt. Dit is snel verholpen als de operator zich hier bewust van is en dus langzaam met de bril beweegt.  </p>
         </Content>
         <Footer/>
     </div> 

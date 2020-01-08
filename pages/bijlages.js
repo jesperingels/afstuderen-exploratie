@@ -18,6 +18,7 @@ const Bijlage = () => (
         <Link href="/bijlagen/remote-assist-usertest">
             <a>Remote assist usertest video</a>
         </Link>
+        <a href="https://1drv.ms/v/s!AhqyORz698OHgt0z7iTz039aYQ8BIw">Presentatie video bij Perfetti Van Melle</a>
 
       </Content>
       <Footer/>
