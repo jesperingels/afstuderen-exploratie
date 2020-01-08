@@ -53,6 +53,39 @@ const HandpickedLabs = () => (
             <img className='width-80pr' src='/img/monteur-test2.jpg' />
         </div>
 
+        <h3>Opmerkingen</h3>
+        <ul>
+            <li>Wifi kwaliteit was niet overal in de fabriek even goed </li>
+            <li>Het lukte Gaby (Operator) niet altijd even goed om het videoscherm vast te zetten en/of te verslepen. </li>
+            <li>De app op de Hololens werd onverwachts afgesloten zonder dat de Operator hier opdracht voor gaf. </li>
+            <li>Monteur moet begrijpen dat de pijlen zo goed mogelijk op een duidelijk oppervlakte geplaatst moeten worden. Zodat de pijlen voor de operator ook in 3D daadwerkelijk naar de juiste positie wijzen. </li>
+            <li>Als een operator de vaktermen van de monteur niet kent kan de monteur een uitleg van de begrippen invoegen met ‘OneDrive’. </li>
+        </ul>
+
+        <h3>Voordelen</h3>
+        <ul>
+            <li>Ook bij een zeer slechte internet verbinding is het nog mogelijk om een videoverbinding te behouden. Wel ten koste van de videokwaliteit. </li>
+            <li>Met behulp van een koptelefoon + microfoon voor zowel de operator als de monteur kunnen beide partijen elkaar goed verstaan. Zelfs luide machinegeluiden. </li>
+            <li>Het is wel gelukt om duidelijk te maken welke boutjes en schroefjes er los gedraaid moesten worden.</li>
+        </ul>
+
+        <h3>Nadelen</h3>
+        <ul>
+            <li>De Operator wordt gestuurd in de ruimte door te zeggen kijk links, kijk rechts.</li>
+            <li>Het videobeeld/hologram zit vaak in de weg op de plek waar de monteur een pijl wilt tekenen. </li>
+            <li>Er waren geen onderdelen bij de test aanwezig waardoor de ombouw niet juist en compleet kon worden uitgevoerd. </li>
+        </ul>
+
+        <h3>Verbeteringen</h3>
+        <ol>
+            <li>Genummerde pijlen, zou helpen met het communiceren waar de Operator moet werken.</li>
+            <li>Een Real-time spiegeling van de computermuis in het beeld van de operator. Want het werken met de pijlen door eerst het scherm te bevriezen werkt moeizaam. De Monteur moet de moet het scherm zien te bevriezen op het juiste moment om de pijl op de juiste plek te plaatsen. </li>
+            <li>Gaby geeft aan dat ze het fijn zou vinden om zelf ook pijlen weg te kunnen halen. Persoonlijk denk ik dat het goed is dat die ene niet de pijlen van de ander kan weghalen, om verwarring te voorkomen. </li>
+        </ol>
+
+
+
+
         </Content>
         <Footer/>
     </div> 

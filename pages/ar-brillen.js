@@ -24,7 +24,7 @@ const HandpickedLabs = () => (
         </div>
 
         <h3>Augmented Reality</h3>
-        <p>AR (Augmented Reality) bevindt zich eigenlijk tussen de echte wereld en de virtuele wereld. Augmented betekent letterlijk: toegevoegd aan, dus Augmented Reality staat voor toegevoegde Realiteit. Deze toegevoegde Realiteit kun je op meerdere manieren waarnemen, de meeste mensen kennen het van populaire apps op hun telefoon zoals Pokémon Go. De meeste telefoons tegenwoordig hebben de mogelijkheid om AR-objecten te renderen. Dit is leuk als je een keer een spelletje wilt spelen op je telefoon maar in het geval van Perfetti Van Melle is het erg onhandig wanneer je een machine aan het repareren bent en je moet met 1 hand nog een telefoon vasthouden. De immersie van AR via aan telefoon is veel lager ten opzichte van de HoloLens, omdat de HoloLens  </p>
+        <p>AR (Augmented Reality) bevindt zich eigenlijk tussen de echte wereld en de virtuele wereld. Augmented betekent letterlijk: toegevoegd aan, dus Augmented Reality staat voor toegevoegde Realiteit. Deze toegevoegde Realiteit kun je op meerdere manieren waarnemen, de meeste mensen kennen het van populaire apps op hun telefoon zoals Pokémon Go. De meeste telefoons tegenwoordig hebben de mogelijkheid om AR-objecten te renderen. Dit is leuk als je een keer een spelletje wilt spelen op je telefoon maar in het geval van Perfetti Van Melle is het erg onhandig wanneer je een machine aan het repareren bent en je moet met 1 hand nog een telefoon vasthouden. De immersie van AR via een telefoon is veel lager ten opzichte van de HoloLens.  </p>
         <div className='img-wrapper'>
             <img className='width-80pr' src='/img/ARgif.gif' />
         </div>

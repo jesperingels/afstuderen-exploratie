@@ -15,6 +15,9 @@ const Bijlage = () => (
         <Link href="/bijlagen/teamoverleg-hololens">
             <a>Teamoverleg HoloLens</a>
         </Link>
+        <Link href="/bijlagen/remote-assist-usertest">
+            <a>Remote assist usertest video</a>
+        </Link>
 
       </Content>
       <Footer/>
