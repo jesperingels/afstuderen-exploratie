@@ -30,7 +30,7 @@ const HandpickedLabs = () => (
             <div className='img-wrapper'>
                 <img className="width-50pr" src="/img/Guides.jpg"/>
             </div>
-            <Link href="/">
+            <Link href="/usertest-guides">
                 <a>Ga naar user-test</a>
             </Link>
         </section>

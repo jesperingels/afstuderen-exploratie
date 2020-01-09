@@ -8,9 +8,9 @@ const Header = () => (
         <div className="menu-logo"></div>
         <div className="mobile-menu"></div>
         <div className='logo'>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
+            {/* <Link href="https://afstuderen-exploratie.jesperingels.now.sh/"> */}
+                <a href="https://afstuderen-exploratie.jesperingels.now.sh/">Home</a>
+            {/* </Link> */}
         </div>
         <Navigation>
         <Link href='/'>

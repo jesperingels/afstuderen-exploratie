@@ -55,7 +55,7 @@ const Main = () => (
         itemText='Om het project voor Perfetti Van Melle af te ronden heb ik een presentatie gegeven en ook gepitcht hoe ik denk dat de HoloLens een rol kan spelen binnen de organisatie.'
         linkHref='presentatie-pvm'
         linkText='Bekijk meer'
-        imgSrc='/img/presentatiePVM.jpg'
+        imgSrc='/img/presentatiePVM.JPG'
       />
 
     </main>

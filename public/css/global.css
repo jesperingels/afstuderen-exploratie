@@ -55,3 +55,15 @@ iframe {
     margin: 25px 0;
     width: 100%;
 }
+
+.bijlage-wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+.bijlage-wrapper a {
+    text-decoration: underling;
+    color: blue;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+}

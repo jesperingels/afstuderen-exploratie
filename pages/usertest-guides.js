@@ -27,11 +27,16 @@ const HandpickedLabs = () => (
             <img className='width-50pr' src='/img/author-database.jpg' />
         </div>
         <p>Als laatste stap moet de Author de hologrammen bij de machine plaatsen bij de juiste stap. Dit gehele proces wordt constant opgeslagen en geüpdatet naar de database. </p>
-        <p>[Gifje van plaatsen hologrammen]</p>
+        <div className='img-wrapper'>
+            <img className='width-80pr' src='/img/GuidesPlaceHologram.gif' />
+        </div>
 
         <h3>Operator</h3>
         <p>Voor de operator is het een stuk makkelijker dan de Author. Je opent de juiste Guide en navigeert door de verschillende stappen door enkel naar de knop ‘next’ te kijken. Verder is het gewoon een kwestie van de instructies opvolgen met behulp van uitleg en de hologrammen op de machine.</p>
-        <p>[Gifje operator]</p>
+        <div className='img-wrapper'>
+            <img className='width-50pr' src='/img/Gaze.gif' />
+            <img className='width-50pr' src='/img/SelectOperator.gif' />
+        </div>
 
         <h3>Waarom de Guides app?</h3>
         <p>In de fabriek heb ik meegelopen bij de flowpack-machine deze machine wikkelt de doosjes Mentos in met een doorzichtige folie. Bij de verschillende bestellingen kan de hoogte van de doosjes verschillen en moet de machine anders worden ingesteld en onderdelen vervangen. De handelingen hiervoor zijn vaak hetzelfde maar de operators hebben niet genoeg kennis van de machine om dit zelf te kunnen doen en moet de ombouw dus door een monteur worden gedaan. Monteurs zijn schaars en hebben het vaak druk in de fabriek. Dus zou het geweldig zijn als elke operator met behulp van de HoloLens en de Guides app elke machine kan gaan ombouwen. Ook voor nieuwe operators is het een mooie tool om met machines te leren werken.</p>
