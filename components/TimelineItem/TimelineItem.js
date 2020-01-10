@@ -6,7 +6,7 @@ const TimelineItem = props => (
 
         <div className='item-title'>
             <h2>{props.itemTitle}</h2>
-            <img src={props.imgSrc}/>
+            <img alt={props.imgAlt} src={props.imgSrc}/>
         </div>
         <div className='item-text'>
             <div className='hider'></div>

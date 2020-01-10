@@ -8,6 +8,7 @@ const Main = () => (
         linkHref='handpicked-labs'
         linkText='Bekijk meer'
         imgSrc='./img/HPBreda.jpg'
+        imgAlt='gebouw handpicked agencies'
       />
       
       <TimelineItem
@@ -16,6 +17,7 @@ const Main = () => (
         linkHref='onderzoek-hololens'
         linkText='Bekijk meer'
         imgSrc='./img/2-hololens-slashdot.png'
+        imgAlt='man draagt de hololens 2'
       />
 
       <TimelineItem
@@ -24,6 +26,7 @@ const Main = () => (
         linkHref='ar-brillen'
         linkText='Bekijk meer'
         imgSrc='/img/ARBrillen.jpg'
+        imgAlt='overzicht verschillende AR-brillen'
       />
 
       <TimelineItem
@@ -32,6 +35,7 @@ const Main = () => (
         linkHref='start-perfetti-van-melle'
         linkText='Bekijk meer'
         imgSrc='/img/pvm-logo.jpg'
+        imgAlt='Logo Perfetti van melle'
       />
 
       <TimelineItem
@@ -40,6 +44,7 @@ const Main = () => (
         linkHref='usertest-remote-assist'
         linkText='Bekijk meer'
         imgSrc='/img/ra-test1.jpg'
+        imgAlt='gebruikers test'
       />
 
       <TimelineItem
@@ -48,6 +53,7 @@ const Main = () => (
         linkHref='usertest-guides'
         linkText='Bekijk meer'
         imgSrc='/img/guides-picture.png'
+        imgAlt='hololens met de guides app'
       />
 
       <TimelineItem
@@ -56,6 +62,7 @@ const Main = () => (
         linkHref='presentatie-pvm'
         linkText='Bekijk meer'
         imgSrc='/img/presentatiePVM.jpeg'
+        imgAlt='presentatie bij perfetti van melle'
       />
 
     </main>

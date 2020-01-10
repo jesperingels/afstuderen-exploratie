@@ -11,13 +11,13 @@ const HandpickedLabs = () => (
         <h1>Gebruikerstest - Remote Assist</h1>
 
         <div className='img-wrapper'>
-            <img className='width-80pr' src='/img/test-opzet.jpg' />
+            <img alt="gebruikerstest voorbereiding" className='width-80pr' src='/img/test-opzet.jpg' />
         </div>
 
         <h2>Wat is Remote Assist?</h2>
         <p>Remote Assist is een applicatie die binnen de Microsoft omgeving ‘Dynamics 365’ hangt. Met deze app voor de HoloLens kun je een videoverbinding starten met iemand die zich achter een computer/laptop of smartphone bevindt en met iemand die de HoloLens draagt. Remote Assist werkt samen met ‘Microsoft Teams’, dit programma wordt vooral gebruikt voor interne communicatie: vergaderingen, chatten, bestanden delen, video-bellen etc. In de fabriek bij Perfetti Van Melle kan een monteur in Nederland ‘Microsoft Teams’ gebruiken en een videoverbinding te starten met een operator die in China de HoloLens op heeft.  </p>
         <div className='img-wrapper'>
-            <img className='width-80pr' src='/img/ra-example.jpg' />
+            <img alt="vrouw gebruikt Remote Assist applicatie" className='width-80pr' src='/img/ra-example.jpg' />
         </div>
         <h3>Hoe werkt het?</h3>
         <p>De expert ziet op zijn laptop de live beelden vanuit de camera van de Hololens. en de Operator met de Hololens ziet de expert in een venster boven de machine zweven. De operator legt uit wat er mis is met de machine en laat zien waar in de machine het fout gaat door er met de Hololens naar te kijken. De expert kan op verschillende manieren gaan uitleggen wat de operator moet doen om de machine te repareren. Allereerst kan de expert natuurlijk met de operator praten, waarmee je al een heel eind bent. De expert kan ook pijlen neerzetten op de machine om aan te wijzen waar de operator een actie moet ondernemen. Ook is er een verbinding met Microsoft Onedrive, zodat de expert bestanden naar de operator kan sturen die bepaalde zaken kunnen uitleggen en verduidelijken. De operator kan de bestanden zelf ergens vastzetten in de ruimte om hem heen door de vensters vast te pakken en te verslepen. </p>
@@ -38,7 +38,7 @@ const HandpickedLabs = () => (
         </p>
 
         <div className='img-wrapper'>
-            <img className='width-80pr' src='/img/operator-test1.jpg' />
+            <img alt="operator in de fabriek" className='width-80pr' src='/img/operator-test1.jpg' />
         </div>
 
         <p><strong>Monteur</strong><br/>
@@ -51,7 +51,7 @@ const HandpickedLabs = () => (
         </p>
 
         <div className='img-wrapper'>
-            <img className='width-80pr' src='/img/monteur-test2.jpg' />
+            <img alt="monteur met koptelefoon op achter laptop" className='width-80pr' src='/img/monteur-test2.jpg' />
         </div>
 
         <h3>Opmerkingen</h3>

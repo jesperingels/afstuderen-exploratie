@@ -16,12 +16,12 @@ const OnderzoekHololens = () => (
         </p>
 
         <div className='img-wrapper'>
-          <img className='width-80pr' src='/img/ARGame.gif'/>
+          <img alt="HoloLens game" className='width-80pr' src='/img/ARGame.gif'/>
         </div>
         <p>        Dit is een soort platform spel waarbij de objecten in je omgeving de platformen zijn. Wat hier interessant aan is, is dat je dus de omgeving van de gebruiker kunt gebruiken om de app in te renderen. Op deze manier is het spel elke keer anders. </p>
         
         <div className='img-wrapper'>
-          <img className='width-80pr' src='/img/ScaleRotateOrb.gif'/>
+          <img alt="HoloLens rotatie test" className='width-80pr' src='/img/ScaleRotateOrb.gif'/>
         </div>
         <p>In Unity heb ik verschillende test apps geopend van Microsoft om te kijken wat er mogelijk is. In deze video kun je zien dat je objecten eigenlijk kunt vastpakken en tegelijkertijd kunt roteren, vergroten, en verplaatsen. </p>
         

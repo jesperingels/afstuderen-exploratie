@@ -18,7 +18,7 @@ const HandpickedLabs = () => (
         <section className="content-section">
             <h2>Remote Assist</h2>
             <div className='img-wrapper'>
-                <img className="width-50pr" src="/img/remoteAssist.jpg"/>
+                <img alt="remote assist" className="width-50pr" src="/img/remoteAssist.jpg"/>
             </div>
             <Link href="/usertest-remote-assist">
                 <a>Ga naar user-test</a>
@@ -28,7 +28,7 @@ const HandpickedLabs = () => (
         <section className="content-section">
             <h2>Dynamics 365 Guides</h2>
             <div className='img-wrapper'>
-                <img className="width-50pr" src="/img/Guides.jpg"/>
+                <img alt="Dynamics 365 guides" className="width-50pr" src="/img/Guides.jpg"/>
             </div>
             <Link href="/usertest-guides">
                 <a>Ga naar user-test</a>
@@ -51,7 +51,7 @@ const HandpickedLabs = () => (
                 <li>Samet Yilmaz – Technical Director of Innovations Handpicked Agencies</li>
             </ul>
             <div className='img-wrapper'>
-                <img className="width-100pr" src="/img/presentatiePVM.jpeg"/>
+                <img alt="presentatie bij perfetti van melle" className="width-100pr" src="/img/presentatiePVM.jpeg"/>
             </div>
             <p>Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening kunnen houden.  
             Na de presentatie heb ik met de opdrachtgever (Ko van Belois) afgesproken om een live demo te gaan houden voor ‘the board of directors’ van Perfetti Van Melle.  </p>
