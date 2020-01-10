@@ -7,7 +7,7 @@ const Main = () => (
         itemText='Mijn afstudeerproject ben ik begonnen bij Handpicked Labs, onderdeel van Handpicked Agencies in Breda. Voor dit project ben ik onderzoek gaan doen naar de Microsoft HoloLens als voorbereiding op het onderzoek wat ik zal doen in de fabriek bij Perfetti Van Melle. '
         linkHref='handpicked-labs'
         linkText='Bekijk meer'
-        imgSrc='/img/HPBreda.jpg'
+        imgSrc='./img/HPBreda.jpg'
       />
       
       <TimelineItem
@@ -15,7 +15,7 @@ const Main = () => (
         itemText='Perfetti van Melle heeft zelf de HoloLens (1st gen) al in bezit, ik ben gaan onderzoeken wat deze bril kan. '
         linkHref='onderzoek-hololens'
         linkText='Bekijk meer'
-        imgSrc='/img/2-hololens-slashdot.png'
+        imgSrc='./img/2-hololens-slashdot.png'
       />
 
       <TimelineItem
@@ -55,7 +55,7 @@ const Main = () => (
         itemText='Om het project voor Perfetti Van Melle af te ronden heb ik een presentatie gegeven en ook gepitcht hoe ik denk dat de HoloLens een rol kan spelen binnen de organisatie.'
         linkHref='presentatie-pvm'
         linkText='Bekijk meer'
-        imgSrc='/img/presentatiePVM.JPG'
+        imgSrc='/img/presentatiePVM.jpeg'
       />
 
     </main>

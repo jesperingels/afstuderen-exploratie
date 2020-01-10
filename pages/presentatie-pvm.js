@@ -11,7 +11,7 @@ const HandpickedLabs = () => (
         <h1>Project presentatie @Perfetti Van Melle</h1>
 
         <div className='img-wrapper'>
-            <img className='width-80pr' src='/img/presentatiePVM.JPG' />
+            <img className='width-80pr' src='/img/presentatiePVM.jpeg' />
         </div>
         <a href="https://1drv.ms/v/s!AhqyORz698OHgt0z7iTz039aYQ8BIw">Presentatie video bij Perfetti Van Melle</a>
         <a href="https://1drv.ms/u/s!AhqyORz698OHgt0x3pG-Ppxy_FRxPg?e=bfBtBK">Powerpoint presentatie link</a>

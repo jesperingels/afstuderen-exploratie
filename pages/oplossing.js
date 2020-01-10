@@ -51,7 +51,7 @@ const HandpickedLabs = () => (
                 <li>Samet Yilmaz – Technical Director of Innovations Handpicked Agencies</li>
             </ul>
             <div className='img-wrapper'>
-                <img className="width-100pr" src="/img/presentatiePVM.jpg"/>
+                <img className="width-100pr" src="/img/presentatiePVM.jpeg"/>
             </div>
             <p>Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening kunnen houden.  
             Na de presentatie heb ik met de opdrachtgever (Ko van Belois) afgesproken om een live demo te gaan houden voor ‘the board of directors’ van Perfetti Van Melle.  </p>

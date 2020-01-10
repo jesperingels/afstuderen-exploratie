@@ -10,7 +10,7 @@ const Footer = () => (
             <Link href="/reflectie">
                 <a>Reflectie</a>
             </Link>
-            <Link href="/">
+            <Link href="/bronnen">
                 <a>Bronnen</a>
             </Link>
         </nav>
