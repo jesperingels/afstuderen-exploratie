@@ -53,7 +53,12 @@ const HandpickedLabs = () => (
         <div className='img-wrapper'>
             <img className='width-80pr' src='/img/afstelkop.jpg' />
         </div>
+
+        <h3>Uitleg Guides app - Author</h3>
+        <iframe width="743" height="418" src="https://www.youtube.com/embed/DnAVDg1NZwY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
+        <h3>Uitleg Guides app - Operator</h3>
+        <iframe width="743" height="418" src="https://www.youtube.com/embed/gE7BjFdVocM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Content>
         <Footer/>
     </div> 
