@@ -24,6 +24,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
     "next": "^9.1.6",
