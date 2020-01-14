@@ -17,6 +17,14 @@
     text-align: center;
 }
 
+.img-placeholder {
+    background-color: grey;
+    width:80%;
+    height:300px;
+    position: absolute;
+    z-index: -1;
+}
+
 .content-section {
     display: flex;
     flex-direction: column;
@@ -24,13 +32,19 @@
     margin-bottom: 50px;
 }
 
+iframe {
+    position: relative;
+}
+
 .img-wrapper {
     display: flex;
     justify-content: space-around;
+    margin: 25px 0;
+    position: relative;
 }
 
 .img-wrapper img {
-    margin: 25px 0;
+    /* padding: 25px 0; */
     object-fit: contain;
 }
 

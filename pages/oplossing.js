@@ -18,6 +18,7 @@ const HandpickedLabs = () => (
         <section className="content-section">
             <h2>Remote Assist</h2>
             <div className='img-wrapper'>
+                <div className="img-placeholder width-50pr"></div>
                 <img alt="remote assist" className="width-50pr" src="/img/remoteAssist.jpg"/>
             </div>
             <Link href="/usertest-remote-assist">
@@ -28,6 +29,7 @@ const HandpickedLabs = () => (
         <section className="content-section">
             <h2>Dynamics 365 Guides</h2>
             <div className='img-wrapper'>
+                <div className="img-placeholder width-50pr"></div>
                 <img alt="Dynamics 365 guides" className="width-50pr" src="/img/Guides.jpg"/>
             </div>
             <Link href="/usertest-guides">
@@ -51,6 +53,7 @@ const HandpickedLabs = () => (
                 <li>Samet Yilmaz – Technical Director of Innovations Handpicked Agencies</li>
             </ul>
             <div className='img-wrapper'>
+                <div className="img-placeholder width-100pr"></div>
                 <img alt="presentatie bij perfetti van melle" className="width-100pr" src="/img/presentatiePVM.jpeg"/>
             </div>
             <p>Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening kunnen houden.  

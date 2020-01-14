@@ -1,5 +1,5 @@
 const imagemin = require('imagemin');
-const imageminJpegtran = require('imagemin-jpegtran');
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminPngquant = require('imagemin-pngquant');
 const imageminGifsicle = require('imagemin-gifsicle');
  
@@ -7,7 +7,9 @@ const imageminGifsicle = require('imagemin-gifsicle');
     const files = await imagemin(['public/img-in/*.{jpg,png,jpeg,gif,svg}'], {
         destination: 'public/img',
         plugins: [
-            imageminJpegtran(),
+            imageminMozjpeg(
+                {quality: 35}
+                ),
             imageminGifsicle(),
             imageminPngquant({
                 quality: [0.6, 0.8]
@@ -16,5 +18,4 @@ const imageminGifsicle = require('imagemin-gifsicle');
     });
  
     console.log('Images optimized!');
-    //=> [{data: <Buffer 89 50 4e …>, destinationPath: 'build/images/foo.jpg'}, …]
 })();

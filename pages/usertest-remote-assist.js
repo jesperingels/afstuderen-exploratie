@@ -11,12 +11,14 @@ const HandpickedLabs = () => (
         <h1>Gebruikerstest - Remote Assist</h1>
 
         <div className='img-wrapper'>
+            <div className="img-placeholder width-80pr"></div>
             <img alt="gebruikerstest voorbereiding" className='width-80pr' src='/img/test-opzet.jpg' />
         </div>
 
         <h2>Wat is Remote Assist?</h2>
         <p>Remote Assist is een applicatie die binnen de Microsoft omgeving ‘Dynamics 365’ hangt. Met deze app voor de HoloLens kun je een videoverbinding starten met iemand die zich achter een computer/laptop of smartphone bevindt en met iemand die de HoloLens draagt. Remote Assist werkt samen met ‘Microsoft Teams’, dit programma wordt vooral gebruikt voor interne communicatie: vergaderingen, chatten, bestanden delen, video-bellen etc. In de fabriek bij Perfetti Van Melle kan een monteur in Nederland ‘Microsoft Teams’ gebruiken en een videoverbinding te starten met een operator die in China de HoloLens op heeft.  </p>
         <div className='img-wrapper'>
+            <div className="img-placeholder width-80pr"></div>
             <img alt="vrouw gebruikt Remote Assist applicatie" className='width-80pr' src='/img/ra-example.jpg' />
         </div>
         <h3>Hoe werkt het?</h3>
@@ -38,6 +40,7 @@ const HandpickedLabs = () => (
         </p>
 
         <div className='img-wrapper'>
+            <div className="img-placeholder width-80pr"></div>
             <img alt="operator in de fabriek" className='width-80pr' src='/img/operator-test1.jpg' />
         </div>
 
@@ -51,6 +54,7 @@ const HandpickedLabs = () => (
         </p>
 
         <div className='img-wrapper'>
+            <div className="img-placeholder width-80pr"></div>
             <img alt="monteur met koptelefoon op achter laptop" className='width-80pr' src='/img/monteur-test2.jpg' />
         </div>
 

@@ -10,12 +10,14 @@ const HandpickedLabs = () => (
       <Content>
         <h1>Start bij Perfetti Van Melle</h1>
         <div className='img-wrapper'>
+            <div className="img-placeholder width-100pr"></div>
             <img alt="werkplek perfetti van melle" className='width-100pr' src='/img/start-pvm.jpg' />
         </div>
         <p>Op het planbureau liep ik dan rond in de lucht te tikken, dit vonden de medewerkers bij Perfetti Van Melle maar een raar gezicht en dat lieten ze ook merken. Als ik eenmaal met enthousiasme begin uit te leggen wat de bril doet en wat het bedrijf eraan zou kunnen hebben beginnen ze er meer begrip voor te hebben.  </p>
         <p>Binnen het bedrijf was mijn contactpersoon en begeleider: Tim Crucq. Hij heeft me veel geholpen tijdens mijn onderzoek, om te achterhalen waar de kansen liggen en waar de HoloLens echt het verschil kan maken. In het begin heb ik meerdere keren het ochtendoverleg bijgewoond. </p>
         
         <div className='img-wrapper'>
+            <div className="img-placeholder width-90pr"></div>
             <img alt="ochtend overleg" className='width-33pr' src='/img/oc1.jpg' />
             <img alt="ochtend overleg" className='width-33pr' src='/img/oc2.jpg' />
             <img alt="ochtend overleg" className='width-33pr' src='/img/oc3.jpg' />

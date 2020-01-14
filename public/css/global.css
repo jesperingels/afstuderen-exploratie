@@ -35,8 +35,16 @@ p {
     width:50%;
 }
 
+.width-60pr {
+    width:60%;
+}
+
 .width-80pr {
     width:80%;
+}
+
+.width-90pr {
+    width:90%;
 }
 
 .width-100pr {
