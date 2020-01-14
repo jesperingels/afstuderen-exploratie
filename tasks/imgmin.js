@@ -4,7 +4,7 @@ const imageminPngquant = require('imagemin-pngquant');
 const imageminGifsicle = require('imagemin-gifsicle');
  
 (async () => {
-    const files = await imagemin(['public/img-in/*.{jpg,png,jpeg,gif}'], {
+    const files = await imagemin(['public/img-in/*.{jpg,png,jpeg,gif,svg}'], {
         destination: 'public/img',
         plugins: [
             imageminJpegtran(),
