@@ -56,7 +56,7 @@ const HandpickedLabs = () => (
                 <div className="img-placeholder width-100pr"></div>
                 <img alt="presentatie bij perfetti van melle" className="width-100pr" src="/img/presentatiePVM.jpeg"/>
             </div>
-            <p>Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening kunnen houden.  
+            <p>Iedereen was erg enthousiast over het project na de presentatie. Ik heb bewezen dat het direct ingezet kan worden in de fabriek en een overzicht met waar ze rekening mee kunnen houden.  
             Na de presentatie heb ik met de opdrachtgever (Ko van Belois) afgesproken om een live demo te gaan houden voor ‘the board of directors’ van Perfetti Van Melle.  </p>
         </section>
         <h3>Live Demo</h3>

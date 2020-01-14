@@ -18,7 +18,7 @@
 }
 
 .img-placeholder {
-    background-color: grey;
+    background-color: #d6d6d6;
     width:80%;
     height:300px;
     position: absolute;
@@ -41,6 +41,7 @@ iframe {
     justify-content: space-around;
     margin: 25px 0;
     position: relative;
+    min-height: 300px;
 }
 
 .img-wrapper img {

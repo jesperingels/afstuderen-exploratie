@@ -10,12 +10,16 @@ const checkPlaceholders = () => {
           function checkOnComplete() {
               console.log('images loaded')
               const placeholders = document.querySelectorAll('.img-placeholder');
+              const imgWrappers = document.querySelectorAll('.img-wrapper');
               console.log(placeholders);
   
               if(placeholders[i]) {
-                  placeholders.forEach(placeholder =>{ 
+                  placeholders.forEach(placeholder => { 
                       placeholder.style.display = 'none';
                       console.log('placeholder hidden!');
+                  })
+                  imgWrappers.forEach(wrapper => {
+                      wrapper.style.minHeight= 'unset'
                   })
               }
           }
